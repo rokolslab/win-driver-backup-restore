@@ -6,6 +6,8 @@
 
 This open-source repository provides two ready-to-use scripts: one exports installed drivers before a Windows reinstall, and the other restores them after the system is installed again.
 
+Author: `RoKols`
+
 ## Who It Is For
 
 - Windows 11 users preparing for a clean reinstall.

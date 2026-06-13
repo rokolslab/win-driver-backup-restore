@@ -1,4 +1,4 @@
-#Requires -RunAsAdministrator
+﻿#Requires -RunAsAdministrator
 <#
 Запуск:
 .\restore-drivers.ps1 -DriversRoot "C:\DriverBackups\MYPC\2026-04-13_12-00\drivers"
