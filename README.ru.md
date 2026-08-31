@@ -6,7 +6,7 @@
 
 Небольшой open-source репозиторий с двумя скриптами: один сохраняет установленные драйверы перед переустановкой Windows, второй помогает восстановить их после установки системы.
 
-Автор: `RoKols`
+Автор: `RokolsLab`
 
 ## Для кого это
 
@@ -23,14 +23,14 @@
 
 ## Скачать скрипты
 
-- `https://raw.githubusercontent.com/RoKols2017/win-driver-backup-restore/main/scripts/backup-drivers.ps1`
-- `https://raw.githubusercontent.com/RoKols2017/win-driver-backup-restore/main/scripts/restore-drivers.ps1`
+- `https://raw.githubusercontent.com/RokolsLab/win-driver-backup-restore/main/scripts/backup-drivers.ps1`
+- `https://raw.githubusercontent.com/RokolsLab/win-driver-backup-restore/main/scripts/restore-drivers.ps1`
 
-Если вы публикуете fork в другом аккаунте, замените `RoKols2017` на имя своего GitHub-аккаунта.
+Если вы публикуете fork в другом аккаунте, замените `RokolsLab` на имя своего GitHub-аккаунта.
 
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RoKols2017/win-driver-backup-restore/main/scripts/backup-drivers.ps1" -OutFile ".\backup-drivers.ps1"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RoKols2017/win-driver-backup-restore/main/scripts/restore-drivers.ps1" -OutFile ".\restore-drivers.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RokolsLab/win-driver-backup-restore/main/scripts/backup-drivers.ps1" -OutFile ".\backup-drivers.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/RokolsLab/win-driver-backup-restore/main/scripts/restore-drivers.ps1" -OutFile ".\restore-drivers.ps1"
 ```
 
 После скачивания может понадобиться:
